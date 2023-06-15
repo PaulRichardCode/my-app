@@ -1,10 +1,15 @@
 import logo from "./logo.svg";
 import "./App.css";
-import sidebar from "./sidebar/sidebar";
-import home from "./home/home";
+import Sidebar from "./sidebar/sidebar";
+import Home from "./home/home";
 
 function App() {
-  return <div className="App"></div>;
+  return (
+    <div className="App">
+      <Sidebar />
+      <Home />
+    </div>
+  );
 }
 
 export default App;
