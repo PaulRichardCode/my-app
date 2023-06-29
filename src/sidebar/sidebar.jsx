@@ -4,7 +4,7 @@ const sidebar = () => {
   return (
     <div>
       <h1>sidebar</h1>
-      <p>k</p>
+      <p>ks</p>
     </div>
   );
 };
