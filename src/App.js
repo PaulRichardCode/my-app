@@ -6,7 +6,8 @@ import Home from "./home/home";
 function App() {
   return (
     <div className="App">
-      <Sidebar />
+      <Sidebar />\
+      <Home />
     </div>
   );
 }
