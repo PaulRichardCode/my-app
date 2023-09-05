@@ -1,7 +1,7 @@
 import React from "react";
 
 const home = () => {
-  return <div>i am back co
+  return <div>i am back
     <p>okay</p>
   </div>;
 };
