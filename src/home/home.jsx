@@ -1,7 +1,8 @@
 import React from "react";
 
 const home = () => {
-  return <div>i am back co
+  return <div>
+    BECOMING a backend developer bby
     <p>okay</p>
   </div>;
 };
