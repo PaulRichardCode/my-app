@@ -2,7 +2,7 @@ import React from "react";
 
 const home = () => {
   return <div>
-    BECOMING a fullstack developer
+    BECOMING a fullstacsk developer
     <p>okay</p>
   </div>;
 };
