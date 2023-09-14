@@ -1,13 +1,12 @@
-import logo from "./logo.svg";
-import "./App.css";
-import Sidebar from "./sidebar/sidebar";
-import Home from "./home/home";
+import logo from './logo.svg';
+import './App.css';
 
 function App() {
   return (
     <div className="App">
-      <Sidebar />
-      <Home/>
+     <h1>
+      hello mum
+     </h1>
     </div>
   );
 }
