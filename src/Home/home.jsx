@@ -1,11 +1,14 @@
-import React from 'react'
+import React from "react";
+import Nav from "./nav";
+import Sidebar from "./sidebar";
 
 const Home = () => {
   return (
-    <div>
-        
+    <div className="w-full">
+      <Nav />
+      <Sidebar />
     </div>
-  )
-}
+  );
+};
 
-export default Home
+export default Home;
