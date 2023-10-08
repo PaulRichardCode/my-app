@@ -9,7 +9,7 @@ const divStyle = {
   alignItems: "center",
   justifyContent: "center",
   backgroundSize: "cover",
-  height: "400px",
+  height: "450px",
 };
 const slideImages = [
   {
