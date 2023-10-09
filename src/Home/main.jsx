@@ -7,7 +7,7 @@ import { MdSolarPower, MdRealEstateAgent } from "react-icons/md";
 const Main = () => {
   return (
     <div className="w-11/12 mx-auto">
-      <h1 className="text-blue-700 font-medium md:text-4xl py-5 text-left">
+      <h1 className="text-blue-700 opacity-70 font-medium md:text-4xl py-5 text-left">
         What we do
       </h1>
       <p className="font-medium text-xl text-left py-5">
