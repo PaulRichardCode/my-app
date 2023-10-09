@@ -1,6 +1,7 @@
 import React from "react";
 import man from "../res/chairman.jpg";
 import qas from "../res/Questions.jpg";
+import { GrDocumentPdf } from "react-icons/gr";
 
 const News = () => {
   return (
@@ -74,6 +75,7 @@ const News = () => {
             in the corporate and consumer segments
           </p>
           <p className="text-left text-lg py-3">
+            <GrDocumentPdf />
             <a
               href="#"
               className="hover:underline text-black font-medium text-2xl">
