@@ -16,7 +16,7 @@ const News = () => {
           <h1 className="text-2xl text-left font-medium">
             Partners Group Chairman Steffen Meister at IPEM, Paris
           </h1>
-          <p className="text-left font-light">
+          <p className="text-left font-light py-3 leading-7">
             Steffen Meister, the Executive Chairman of our Board, was a keynote
             speaker at IPEM in Paris. In his speech, Steffen explained that
             private markets have become the new traditional asset class and
@@ -28,7 +28,7 @@ const News = () => {
             markets means for allocation strategies.
           </p>
           <p className="text-left text-lg py-5">
-            <a href="#" className="hover:underline text-black font-medium ">
+            <a href="#" className="hover:underline text-slate-950 font-medium ">
               Watch the video here
             </a>
           </p>
@@ -39,7 +39,9 @@ const News = () => {
               performance fee development
             </h1>
             <p className="text-left text-lg py-3">
-              <a href="#" className="hover:underline text-black font-medium ">
+              <a
+                href="#"
+                className="hover:underline text-slate-950 font-medium ">
                 Read press release
               </a>
             </p>
@@ -53,7 +55,9 @@ const News = () => {
               asset management and development firm
             </h1>
             <p className="text-left text-lg py-3">
-              <a href="#" className="hover:underline text-black font-medium ">
+              <a
+                href="#"
+                className="hover:underline text-slate-950 font-medium ">
                 Read press release
               </a>
             </p>
@@ -66,7 +70,7 @@ const News = () => {
             Beyond the core: how value-add strategies are taking center stage in
             real estate
           </h1>
-          <p className="text-left font-light">
+          <p className="text-left font-light py-3 leading-7">
             In this Q&A, Mike Bryant, Head of Private Real Estate at Partners
             Group, explains how investors are turning their attention to the
             ‘value-add’ segment of real estate. Through value-add strategies, we
@@ -74,11 +78,11 @@ const News = () => {
             meet evolving ESG requirements as well as the preferences of tenants
             in the corporate and consumer segments
           </p>
-          <p className="text-left text-lg py-3">
-            <GrDocumentPdf />
+          <p className="text-left text-lg py-5 flex items-center">
+            <GrDocumentPdf className="text-4xl text-yellow-500 mr-1" />
             <a
               href="#"
-              className="hover:underline text-black font-medium text-2xl">
+              className="hover:underline text-slate-950 font-medium text-xl">
               Download PDF
             </a>
           </p>
