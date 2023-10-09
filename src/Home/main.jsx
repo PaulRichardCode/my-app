@@ -7,10 +7,10 @@ import { MdSolarPower, MdRealEstateAgent } from "react-icons/md";
 const Main = () => {
   return (
     <div className="w-11/12 mx-auto">
-      <h1 className="text-blue-700 opacity-70 font-medium md:text-4xl py-5 text-left">
+      <h1 className="text-blue-800 opacity-80 font-medium md:text-4xl py-5 text-left">
         What we do
       </h1>
-      <p className="font-medium text-xl text-left py-5">
+      <p className="font-medium text-2xl text-left py-5">
         Partners Group is a leading global private markets firm. Since 1996, we
         have invested over USD 200 billion in private equity, private debt,
         private real estate, and private infrastructure on behalf of our clients

@@ -3,6 +3,7 @@ import Nav from "./nav";
 import Sidebar from "./sidebar";
 import Main from "./main";
 import Slideshow from "./slideshow";
+import News from "./news";
 
 const Home = () => {
   return (
@@ -11,6 +12,7 @@ const Home = () => {
       <Sidebar />
       <Slideshow />
       <Main />
+      <News />
     </div>
   );
 };

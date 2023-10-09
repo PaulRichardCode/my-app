@@ -44,7 +44,7 @@ const Nav = () => {
             </a>
           </li>
           <div htmlFor="" className="flex items-center border border-black">
-            <input type="text" className="focus:outline-none py-1 px-2" />
+            <input type="search" className="focus:outline-none py-1 px-2" />
             <a href="#">
               <ImSearch className="rotate-90 mx-2" />
             </a>
