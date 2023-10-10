@@ -4,6 +4,7 @@ import Sidebar from "./sidebar";
 import Main from "./main";
 import Slideshow from "./slideshow";
 import News from "./news";
+import Footer from "./footer";
 
 const Home = () => {
   return (
@@ -13,6 +14,7 @@ const Home = () => {
       <Slideshow />
       <Main />
       <News />
+      <Footer />
     </div>
   );
 };
