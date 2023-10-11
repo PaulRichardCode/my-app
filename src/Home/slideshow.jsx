@@ -36,7 +36,7 @@ const slideImages = [
 
 const Slideshow = () => {
   return (
-    <div className="slide-container py-1">
+    <div className="slide-container py-1 ">
       <Slide>
         {slideImages.map((slideImage, index) => (
           <div key={index}>
